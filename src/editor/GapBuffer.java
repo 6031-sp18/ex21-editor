@@ -9,8 +9,7 @@ public class GapBuffer implements EditBuffer {
     private char[] a;
     private int gapStart;
     private int gapLength;
-    // Rep invariant: 
-    //   a != null
+    // Rep invariant:
     //   0 <= gapStart <= a.length
     //   0 <= gapLength <= a.length - gapStart
     // Abstraction function: 

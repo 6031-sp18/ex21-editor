@@ -7,7 +7,7 @@ public class SimpleBuffer implements EditBuffer {
 
     private String text;
     // Rep invariant: 
-    //   text, lock != null
+    //   true
     // Abstraction function: 
     //   represents the sequence text[0],...,text[text.length()-1]
     // Safety from rep exposure:
